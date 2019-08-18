@@ -1,9 +1,9 @@
-int S_A = 12;  //speed motor a
+int S_A = 12;  //Enable Motor A
 int M_A1 = 10; //motor a = +
 int M_A2 = 9; //motor a = -
 int M_B1 = 8; //motor b = -
 int M_B2 = 7; //motor b = +
-int S_B = 11;  //speed motor b
+int S_B = 11;  //Enable Motor B
 
 int ls1 = A15;    // for Rigth_Sensor
 int ls2 = A14;    // for Left_Sensor
