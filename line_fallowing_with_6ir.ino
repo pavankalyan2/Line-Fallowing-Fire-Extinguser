@@ -27,8 +27,8 @@ pinMode(ms2, INPUT);
 pinMode(rs1, INPUT);
 pinMode(rs2, INPUT);
 
-analogWrite(S_A,100); Here you can change the Voltage(Speed) to the motors A.
-analogWrite(S_B,100); Here you can change the Voltage(Speed) to the motors B.
+analogWrite(S_A,100); //Here you can change the Voltage(Speed) to the motors A.
+analogWrite(S_B,100); //Here you can change the Voltage(Speed) to the motors B.
 }
 void loop(){
 if ((digitalRead(ls1) == 0)&&(digitalRead(ls2) == 0)&&(digitalRead(ms1) == 1)&&(digitalRead(ms2) == 1)&&(digitalRead(rs1) == 0)&&(digitalRead(rs2) == 0)){ forword();}
